@@ -1,0 +1,4 @@
+* text=auto
+# cmd.exe needs CRLF in batch files; bash needs LF in shell scripts
+*.bat text eol=crlf
+*.sh  text eol=lf

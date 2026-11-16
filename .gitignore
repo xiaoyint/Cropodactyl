@@ -1,0 +1,10 @@
+# Virtual environment (created by run.sh / run.bat on first start; platform-specific)
+.venv/
+
+# Python / test caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Export temp folder, in case an output folder is created inside the repo
+.videocrop-tmp/
